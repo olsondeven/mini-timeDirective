@@ -9,6 +9,9 @@ angular.module('timeApp').directive('showTime', function(){
       scope.name = 'Deven'
       var currentTime = new Date();//date()
       scope.time = currentTime.toString();
+    },
+    controller: function($scope){//scope is from ^ scope{} or view from parent scope
+
     }
   }
 });
